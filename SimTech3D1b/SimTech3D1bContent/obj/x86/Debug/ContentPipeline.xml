@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\Ball LowDef.fbx</Source>
+      <Name>Models\Ball LowDef</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1b\bin\x86\Debug\Content\Models\Ball LowDef.xnb</Output>
+      <Time>2013-03-01T09:17:30.6830039+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Ball LowDef_0.xml</Key>
+        <Value>2013-03-19T11:06:34.4579639+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Plane LowDef.fbx</Source>
+      <Name>Models\Plane LowDef</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1b\bin\x86\Debug\Content\Models\Plane LowDef.xnb</Output>
+      <Time>2013-03-01T09:17:30.684004+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Plane LowDef_0.xml</Key>
+        <Value>2013-03-19T11:06:34.8899886+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Triangle.fbx</Source>
+      <Name>Models\Triangle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1b\bin\x86\Debug\Content\Models\Triangle.xnb</Output>
+      <Time>2013-03-06T13:21:08.4456876+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Triangle_0.xml</Key>
+        <Value>2013-03-19T11:06:34.9779936+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Ball LowDef.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Ball LowDef_0.xml</Output>
+      <Time>2013-03-01T09:17:30.6830039+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Plane LowDef.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Plane LowDef_0.xml</Output>
+      <Time>2013-03-01T09:17:30.684004+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Triangle.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Triangle_0.xml</Output>
+      <Time>2013-03-06T13:21:08.4456876+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1bContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1b\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1bContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1b\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-08-30T16:56:53.7301729+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

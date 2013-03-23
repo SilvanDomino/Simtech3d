@@ -1,0 +1,6 @@
+Content\Models\Ball LowDef.xnb
+Content\Models\Plane LowDef.xnb
+Content\Models\Triangle.xnb
+Content\Models\Ball LowDef.fbx
+Content\Models\Plane LowDef.fbx
+Content\Models\Triangle.fbx

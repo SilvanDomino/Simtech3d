@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>pPlane1</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1bContent\Models\Triangle.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Positions>-0.5 -1.110223E-16 0.5 0 5.96046448E-08 0.5 0.5 5.96046448E-08 0.5 0 5.96046448E-08 0 0.5 5.96046448E-08 0 0.5 5.96046448E-08 -0.5</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 3 2 0 0 4 3 4 0 5</Indices>
+        <Vertices>
+          <PositionIndices>3 0 1 2 4 5</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">-1.98682155E-08 1 0 -1.1920929E-07 1 0 -3.973643E-08 1 0 0 1 0 0 1 0 0 1 0</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.5 0.5 0 1 0.5 1 1 1 1 0.5 1 0</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert1</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Silvan Django\Dropbox\Simtech 3D\SimTech3D2a\SimTech3D1b\SimTech3D1bContent\Models\Triangle.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.4 0.4 0.4</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+    </Resource>
+  </Resources>
+</XnaContent>
